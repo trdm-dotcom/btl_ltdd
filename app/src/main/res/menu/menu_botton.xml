@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/profile"
+        android:title="Thông tin"
+        android:icon="@drawable/ic_user_profile" />
+    <item
+        android:id="@+id/qr"
+        android:title="Mã QR"
+        android:icon="@drawable/ic_qr"/>
+    <item
+        android:id="@+id/list"
+        android:title="Danh sách"
+        android:icon="@drawable/ic_list"/>
+    <item
+        android:id="@+id/logout"
+        android:title=""
+        android:icon="@drawable/ic_logout"/>
+</menu>

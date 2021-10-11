@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RestPassActivity"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="20dp">
+    <ImageView
+        android:layout_width="169dp"
+        android:layout_height="169dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="40dp"
+        android:src="@drawable/ic_lock" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/roboto_medium"
+        android:textSize="40dp"
+        android:text="Quên mật khẩu?"
+        android:textColor="#212529"
+        android:layout_marginBottom="20dp"/>
+    <EditText
+        android:id="@+id/emailresetpass"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginBottom="15dp"
+        android:ems="10"
+        android:fontFamily="@font/roboto"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:padding="10dp"
+        android:textColor="#212529"
+        android:textSize="16sp"/>
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnnext"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:fontFamily="@font/roboto_medium"
+        android:text="Tiếp theo"
+        android:textSize="16sp"
+        android:backgroundTint="#212529"
+        android:layout_marginTop="10dp"
+        android:textAllCaps="false"/>
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnback"
+        style="@style/Widget.MaterialComponents.Button.TextButton"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:fontFamily="@font/roboto_medium"
+        android:text="Quay lại"
+        android:textAllCaps="false"
+        android:textColor="#212529"
+        android:textSize="16sp"
+        android:layout_marginTop="40dp"/>
+</LinearLayout>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "975050794506",
+    "firebase_url": "https://dibuca-c9f11-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "dibuca-c9f11",
+    "storage_bucket": "dibuca-c9f11.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:975050794506:android:5197adc84ce1cb4950a1f3",
+        "android_client_info": {
+          "package_name": "com.example.dibuca"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "975050794506-23jg8qb11ni7bvmvh1lkmo0pad01cgrm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.dibuca",
+            "certificate_hash": "c9a2906c82c463392f939d57d3b658bb81013a98"
+          }
+        },
+        {
+          "client_id": "975050794506-dgi7366lgqr9b7fne3jmpipfk2ic7j8q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCXY381zsnglmVH-UK7Eppidr7fVr-fFDM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "975050794506-dgi7366lgqr9b7fne3jmpipfk2ic7j8q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

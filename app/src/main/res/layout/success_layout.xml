@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".RestPassActivity"
+    android:gravity="center"
+    android:padding="20dp">
+    <ImageView
+        android:layout_width="169dp"
+        android:layout_height="169dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="40dp"
+        android:src="@drawable/checked" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/roboto_medium"
+        android:textSize="20dp"
+        android:text="Vui lòng kiểm tra email! Thực hiện thay đổi mật khẩu"
+        android:textColor="#212529"
+        android:layout_marginBottom="20dp"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnback"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:fontFamily="@font/roboto_medium"
+        android:text="Đăng nhập"
+        android:backgroundTint="#212529"
+        android:textAllCaps="false"
+        android:textSize="16sp"
+        android:layout_marginTop="40dp"/>
+</LinearLayout>
